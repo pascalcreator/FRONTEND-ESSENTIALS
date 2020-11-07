@@ -1,0 +1,25 @@
+#container{
+    width: 800px;
+    height: 450px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+/* Hieronder kun je gaan editen */
+
+#bovenkant{
+    width: 800px;
+    height: 150px;
+    background-color: red;
+}
+#midden{
+    width: 800px;
+    height: 150px;
+    background-color:white;
+}
+
+#onderkant{
+    width: 800px;
+    height: 150px;
+    background-color:blue;
+}
