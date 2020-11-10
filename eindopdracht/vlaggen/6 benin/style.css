@@ -1,5 +1,5 @@
 #container{
-    width: 800px;
+    width: 810px;
     height: 450px;
     background-color: blanchedalmond;
     border: 1px solid black;
@@ -15,14 +15,18 @@
 }
 #rechts{
     display: inline-block;
-    width: 400px;
-    height: 75%;
+    width: 500px;
+    height: 100%;
     background-color: yellow;
 }
-#rechtsonder{
-    display: inline-block;
+#rechtsboven{
     width: 400px;
-    height: 75%;
+    height: 50%;
+    background-color:yellow;
+}
+#rechtsonder{
+    width: 500px;
+    height: 50%;
     background-color: red;
 }
 

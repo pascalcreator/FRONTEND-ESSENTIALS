@@ -1,0 +1,31 @@
+#container{
+    width: 900px;
+    height: 900px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+/* Hieronder kun je gaan editen */
+
+#boven{
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    background-color: brown;
+}
+#linksboven{
+    width: 300px;
+    height: 100px;
+    background-color:blue;
+}
+#rechtboven{
+    width: 300px;
+    height: 100px;
+    background-color: white;
+}
+#onder{
+    display: block;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
