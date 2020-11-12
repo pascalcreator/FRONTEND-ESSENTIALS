@@ -1,27 +1,26 @@
 #container{
-    width: 650px;
+    width: 610px;
     height: 400px;
     background-color: blanchedalmond;
-    border: 1px solid black;
 }
 
 /* Hieronder kun je gaan editen */
 
 #bovenkant{
-    display: inline-block ; 
+    display: inline-block;
     width: 200px;
     height: 400px;
     background-color: red;
 }
 #midden{
-    display: inline-block ;
+    display: inline-block;
     width: 200px;
     height: 400px;
     background-color:white;
 }
 
 #onderkant{
-    display: inline-block ;
+    display: inline-block;
     width: 200px;
     height: 400px;
     background-color:blue;
