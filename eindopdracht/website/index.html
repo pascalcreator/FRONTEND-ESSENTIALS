@@ -23,31 +23,21 @@
                 <th>uw antwoorden</th>
             </tr>
         </thead>
-        <tbody>
             <tr>
                 <td><h3 id="voornaam"></h3></td>
             </tr>
-        </tbody>
-        <tbody>
             <tr>
                 <td><h3 id="achternaam"></h3></td>
             </tr>
-        </tbody>
-        <tbody>
             <tr>
                 <td><h3 id="email"></h3></td>
             </tr>
-        </tbody>
-        <tbody>
             <tr>
                 <td><h3 id="woonplaats"></h3></td>
             </tr>
-        </tbody>
-        <tbody>
             <tr>
                 <td><h3 id="leeftijd"></h3></td>
-            </tr>
-        </tbody>
+            </tr> 
     </table>
     <script>
         var voornaam = prompt("wat is je voornaam");
@@ -84,6 +74,14 @@
         }
         var element = document.getElementById("leeftijd");
         element.innerHTML = leeftijd;
+
+        let bezoeker= {
+            voornaam:(voornaam),
+            achternaam:(achternaam),
+            email:(achternaam),
+            woonplaats:(woonplaats),
+            leeftijd:(leeftijd)
+        }
         </script>
 
 
