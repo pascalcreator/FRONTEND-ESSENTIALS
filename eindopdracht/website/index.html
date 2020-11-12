@@ -3,7 +3,7 @@
     <title>Frontend-Essentials</title>
 </html>
 <body>
-    <h1>website</h1>
+    <h1 class="title">website</h1>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <ol>
@@ -25,52 +25,47 @@
         </thead>
         <tbody>
             <tr>
-                <td><h3 id="id01"></h3></td>
+                <td><h3 id="voornaam"></h3></td>
             </tr>
         </tbody>
         <tbody>
             <tr>
-                <td><h3 id="id02"></h3></td>
+                <td><h3 id="achternaam"></h3></td>
             </tr>
         </tbody>
         <tbody>
             <tr>
-                <td><h3 id="id03"></h3></td>
+                <td><h3 id="email"></h3></td>
             </tr>
         </tbody>
         <tbody>
             <tr>
-                <td><h3 id="id04"></h3></td>
+                <td><h3 id="woonplaats"></h3></td>
             </tr>
         </tbody>
         <tbody>
             <tr>
-                <td><h3 id="id05"></h3></td>
+                <td><h3 id="leeftijd"></h3></td>
             </tr>
         </tbody>
     </table>
     <script>
-    //voornaam
         var voornaam = prompt("wat is je voornaam");
-        var element = document.getElementById("id01");
+        var element = document.getElementById("voornaam");
         element.innerHTML = voornaam;
 
-    //achternaam
         var achternaam = prompt("wat is je achternaam");
-        var element = document.getElementById("id02");
+        var element = document.getElementById("achternaam");
         element.innerHTML = achternaam;
         
-        //email
         var email = prompt("wat is je email");
-        var element = document.getElementById("id03");
+        var element = document.getElementById("email");
         element.innerHTML = email;
         
-        //woonplaats
         var woonplaats = prompt("waar woon je ");
-        var element = document.getElementById("id04");
+        var element = document.getElementById("woonplaats");
         element.innerHTML = woonplaats;
         
-        //leeftijd
         var leeftijd = prompt("hoe oud ben je");
         if(leeftijd == 16){
             document.body.style.backgroundColor = "orange";
@@ -87,7 +82,7 @@
         if(leeftijd == null){
             document.body.style.backgroundColor = "chartreuse";
         }
-        var element = document.getElementById("id05");
+        var element = document.getElementById("leeftijd");
         element.innerHTML = leeftijd;</script>
 
 
